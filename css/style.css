@@ -1,0 +1,259 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #E5E5E5;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 436px;
+  top: 0;
+  left: 0;
+  background-color: #535971;
+  z-index: -1;
+}
+
+.pagina-principal-formulario {
+  width: 750px;
+  margin: auto;
+}
+
+.cabecalho-formulario {
+  width: 417px;
+  margin-top: 125px;
+  
+}
+
+.titulo-principal {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 18px;
+  
+}
+
+.paragrafo-principal {
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+  margin-bottom: 58px;
+}
+
+#formulario {
+  background-color: white;
+  min-height: 300px;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+}
+
+.agrupamento-campos {
+  border: none;
+  gap: 16px;
+}
+
+.agrupamento-campos .fieldset-embrulhado-informacoes-horarios {
+  margin-top: 32px;
+  gap: 16px;
+}
+
+.legendas {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 34px;
+  color: #535971;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+.outras-legendas {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 34px;
+  color: #535971;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+.grupo-doiscampos-nomes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 36px;
+}
+
+.input-embrulhado {
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.grupo-doiscampos-nomes input {
+  border: none;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background-color: #FAFAFC;
+  width: 300px;
+  height: 56px;
+  margin-top: 8px;
+  padding: 0px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #4E4958;
+}
+
+.grupo-input-individual input {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background-color: #FAFAFC;
+  width: 622px;
+  height: 56px;
+  margin-top: 8px;
+  padding: 0px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #4E4958;
+}
+
+.input-embrulhado span {
+  color: #C1BCCC;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.input-embrulhado-mentor {
+  margin-top: 32px;
+}
+
+.input-embrulhado-mentor label {
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.input-embrulhado-mentor input {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background-color: #FAFAFC;
+  width: 622px;
+  height: 56px;
+  margin-top: 8px;
+  padding: 0px 10px;
+  color: #4E4958;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #4E4958;
+}
+
+.input-embrulhado-mentor span {
+  color: #C1BCCC;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.fieldset-embrulhado-informacoes-horarios .legendas-tres-inputs {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+  margin-top: 32px;
+}
+
+.grupo-tres-inputs input {
+  border: none;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background-color: #FAFAFC;
+  display: flex;
+  margin-top: 8px;
+  padding: 0px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #4E4958;
+}
+
+.grupo-tres-inputs {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+  
+}
+
+.grupo-tres-inputs>div:nth-child(1) {
+  width: 100%;
+}
+
+.grupo-tres-inputs .input-data {
+  width: 300px;
+  height: 56px;
+}
+
+.grupo-tres-inputs .tempo {
+  width: 140px;
+  height: 56px;
+  gap: 10px;
+}
+
+.fieldset-embrulhado-informacoes-horarios-segunda-mentoria {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+}
+
+.botao-rodape {
+  background-color: #535971;
+  border-radius: 0px 0px 20px 20px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 71px 52px;
+  
+}
+
+.botao-enviar {
+  border-radius: 20px;
+  border: none;
+  width: 608px;
+  height: 55px;
+  background-color: #FF5374;
+  font-family: 'Staatliches', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+input:invalid {
+  border: 1px solid rgb(226, 85, 85);
+}
+
+.botao-enviar:hover {
+  background-color: #943649;
+}
+
+span:hover {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #4E4958;
+}

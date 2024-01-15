@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscreva-se em nossa mentoria</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <div class="pagina-principal-formulario">
+    <header class="cabecalho-formulario">
+      <h1 class="titulo-principal">MENTORIA</h1>
+      <p class="paragrafo-principal">Preencha o formulário abaixo para agendar a sua mentoria.</p>
+    </header>
+
+    <form id="formulario">
+
+      <fieldset class="agrupamento-campos">
+        <div class="fieldset-embrulho">
+          <legend class="legendas">Informações Pessoais</legend>
+        </div>
+
+        <div class="grupo-doiscampos-nomes">
+          <div class="input-embrulhado">
+            <label for="campo-nome">Nome</label>
+            <input required maxlength="10" type="text" id="campo-nome">
+          </div>
+
+          <div class="input-embrulhado">
+            <label for="campo-sobrenome">Sobrenome</label>
+            <input required maxlength="10" type="text" id="campo-sobrenome">
+          </div>
+        </div>
+
+        <div class="grupo-input-individual">
+          <div class="input-embrulhado">
+            <label for="campo-email">Email <span>(digite um email válido)</span></label>
+            <input required type="email" id="campo-email">
+          </div>
+
+          <div class="input-embrulhado">
+            <label for="campo-senha">Senha <span>(mínimo de 6 caracteres)</span></label>
+            <input required minlength="15" type="password" id="campo-senha">
+          </div>
+        </div>
+
+      </fieldset>
+
+      <fieldset class="agrupamento-campos">
+        <div class="fieldset-embrulhado-informacoes-mentor">
+          <legend class="outras-legendas">Informações do mentor</legend>
+        </div>
+
+        <div class="input-embrulhado-mentor">
+          <label for="nome-tutor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+          <input required maxlength="15" type="text" id="nome-tutor">
+        </div>
+
+      </fieldset>
+
+      <fieldset class="agrupamento-campos">
+        <div class="fieldset-embrulhado-informacoes-horarios">
+          <legend class="outras-legendas">Seus horários disponíveis</legend>
+          <legend class="legendas-tres-inputs">Primeira mentoria</legend>
+
+        </div>
+
+        <div class="grupo-tres-inputs">
+
+          <div class="input-embrulhado">
+            <label for="data-primeira-mentoria">Data <span>(DD/MM/AAAA)</span></label>
+            <input required class="input-data" type="date" id="data-primeira-mentoria">
+          </div>
+
+          <div class="input-embrulhado">
+            <label for="inicio-primeira-mentoria">Das</label>
+            <input required class="tempo" type="time" id="inicio-primeira-mentoria">
+          </div>
+
+          <div class="input-embrulhado">
+            <label for="fim-primeira-mentoria">Até</label>
+            <input required class="tempo" type="time" id="fim-primeira-mentoria">
+
+          </div>
+
+      </fieldset>
+
+      <fieldset class="agrupamento-campos">
+        <div class="fieldset-embrulhado-informacoes-horarios-segunda-mentoria">
+          <legend class="legendas-tres-inputs">Segunda mentoria</legend>
+
+        </div>
+
+        <div class="grupo-tres-inputs">
+
+          <div class="input-embrulhado">
+            <label for="data-primeira-mentoria">Data <span>(DD/MM/AAAA)</span></label>
+            <input class="input-data" type="date" id="data-primeira-mentoria">
+          </div>
+
+          <div class="input-embrulhado">
+            <label for="inicio-primeira-mentoria">Das</label>
+            <input class="tempo" type="time" id="inicio-primeira-mentoria">
+          </div>
+
+          <div class="input-embrulhado">
+            <label for="fim-primeira-mentoria">Até</label>
+            <input class="tempo" type="time" id="fim-primeira-mentoria">
+
+          </div>
+
+      </fieldset>
+    </form>
+
+    <footer class="botao-rodape">
+      <input class="botao-enviar" form="formulario" type="submit" value="Enviar">
+    </footer>
+  </div>
+</body>
+
+</html>
